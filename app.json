@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/teamtoy/dashboard",
+    "pages/teamtoy/todoadd",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TeamToy",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/teamtoy/dashboard",
+      "text": "TODO"
+    }, {
+      "pagePath": "pages/teamtoy/pm",
+      "text": "私信"
+    },{
+      "pagePath": "pages/teamtoy/members",
+      "text": "同事"
+    },{
+      "pagePath": "pages/teamtoy/settings",
+      "text": "设置"
+    }
+    
+    ]
+  }
+}

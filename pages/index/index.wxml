@@ -1,0 +1,29 @@
+<view class="page">
+    <view class="page__hd">
+        <text class="page__title">TeamToy登入</text>
+    </view>
+    <form class="page__bd" catchsubmit="login" >
+
+        <image src="http://ftqq.com/wp-content/uploads//2016/07/bottom_logo.png" mode="aspectFit" class="logo"/>
+        
+        <view class="section">
+            <view class="section__title">Host</view>
+            <input name="host" placeholder="请输入TeamToy Host" value="{{host}}"  />
+        </view>
+        
+        <view class="section">
+            <view class="section__title">Email</view>
+            <input name="email" placeholder="请输入邮箱" value="{{email}}" />
+        </view>
+
+        <view class="section">
+            <view class="section__title">密码</view>
+            <input name="password" placeholder="请输入密码" value="{{password}}" password/>
+        </view>
+
+       
+        <view class="btn-area">
+            <button formType="submit">登入</button>
+        </view>
+    </form>
+</view>
