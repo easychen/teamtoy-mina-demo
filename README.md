@@ -1,4 +1,6 @@
-# 微信小程序 Demo
+# 带用户登录的微信小程序 Demo
+
+![](http://ww2.sinaimg.cn/large/40dfde6fjw1f8743ptc82g20av0iv78l.gif)
 
 使用了 TeamToy 的 API  http://tt2net.vipsinaapp.com/#api
 
